@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "pretty": true,
+        "target": "es6",
+        "module": "commonjs",
+        "jsx": "react",
+        "skipLibCheck": true
+    }
+}
