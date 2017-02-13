@@ -106,7 +106,7 @@ class CounterApp extends React.Component<{ count: number, actions: Actions }, vo
                 <section>
                     <h2>With action creator (redux-thunk)</h2>
                     <p>
-                        <button onClick={() => this.props.actions.sync()} >Sync count</button>
+                        <button onClick={() => this.props.actions.syncThunk()} >Sync count</button>
                         <button onClick={() => this.props.actions.asyncThunk()}>Async count</button>
                         <button onClick={() => this.props.actions.everCountThunk()}>Ever count</button>
                     </p>
